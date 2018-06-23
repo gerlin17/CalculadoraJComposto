@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript" src="js/myjs.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+  <table border="0" width="1000" align="center">
+    <tr>
+      <td colspan="3" align="center"><h1>Calculadora de Juros Composto!</td>
+    </tr>
+  	<tr align="center" height="100">
+  		<td>  
+  		<label for="capital">Capital: R$</label>
+  		<input type="tex" id="capital" placendolder="Capital">
+  		</td>
+  		<td>
+  		<label for="taxaJuros">Taxa de juros: (%)</label>
+  		<input type="tex"  id="taxaJuros" placendolder="Taxa de juros">
+		</td>
+  		<td>
+  		<label for="tempoAplicacao">Tempo de execução: (meses)</label>
+ 		<input type="number" id="tempoAplicacao" placendolder="Tempo Aplicação">  
+  		</td>
+	</tr>
+	<tr align="center">
+		<td></td>
+		<td></td>
+		<td><button type="button"  onclick="calculaJuros()">Calcular</button></td>
+	</tr>
+  
+  	<tr align="center"  height="100">
+  		<td>
+  	<label for="ValorTotal">Valor Total: R$</label>
+  	<input type="text"  id="total">
+    	</td>
+    	<td>
+	<label for="Mensalidade">Mensalidades: (p/Mês)</label>
+	<input type="text"  id="mensal">
+		</td>
+		<td></td>
+  	</tr>
+    <tr>
+      <td colspan="3"><h4>Para funcionar basta informar: Valor Inicial, Taxa de Juros e o Numero de Vencimentos de acordo com o que o sistema pede e clicar em calcular.<br>   </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
